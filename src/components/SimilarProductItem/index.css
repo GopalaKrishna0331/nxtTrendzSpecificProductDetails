@@ -1,0 +1,60 @@
+.Similar-product-item {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.Similar-thumbnail {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.Similar-title {
+  font-family: 'roboto';
+  font-size: 20px;
+}
+
+.Similar-brand {
+  font-family: 'roboto';
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.Similar-rating-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Similar-product-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Similar-price {
+  font-family: 'roboto';
+  color: #12022f;
+  font-weight: bold;
+  align-self: center;
+}
+
+.Similar-rating-container {
+  background-color: #3b82f6;
+  border-radius: 8px;
+  height: 30px;
+  width: 70px;
+  display: flex;
+  align-self: center;
+  margin-right: 48px;
+}
+
+.Similar-rating {
+  color: #ffffff;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.Similar-star {
+  height: 20px;
+  align-self: center;
+  margin-left: 8px;
+}
